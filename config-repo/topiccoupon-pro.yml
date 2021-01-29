@@ -4,3 +4,8 @@ spring:
     username: root
     password: root
     drive-class-name: com.mysql.jdbc.Driver
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8000/eureka/
